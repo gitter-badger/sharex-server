@@ -1,8 +1,25 @@
 # Sharex-Fileuploader
+An Simple File Uploader for ShareX in NodeJS
 
-## An Simple File Uploader for ShareX
+### How to Use this Image
 
-### ENVs to change
+#### Use Docker HUB Image
+
+```bash
+docker run -e "APTOKEN=mysecrettoken" -e "APURL=http://localhost:3000" -p "3000:3000" ucode1337/sharex-server
+# Its creating an automatic VOLUME if you want to change it use -v "PATH:/app/static"
+```
+
+#### Build it yourself
+
+```bash
+git clone https://git.ucode.space/Phil/sharex-server.git
+cd sharex-server
+docker build . -t sharexserver
+docker run -e "APTOKEN=mysecrettoken" -e "APURL=http://localhost:3000" -p "3000:3000" sharexserver
+```
+
+#### ENVs to change if you want :)
 
 - PORT      (Express PORT  DF:   3000)
 - EXHOST    (Express HOST  DF:   "0.0.0.0")
