@@ -1,17 +1,10 @@
-# nodejs-express-template
-![TREE](https://i.imgur.com/Ajl4NcB.png)
+# Sharex-Fileuploader
 
-Download and Install via
-`npm install`
+## An Simple File Uploader for ShareX
 
-#### Simple Nodejs app with:
-* Express as HTTP Server
-* hbs (Handlebars) for HTML Templating
-* body-parser support (specific routes)
-* morgan for logging
+### ENVs to change
 
-#### Enviroment Variables
-##### EXPRESS/WEB-SEVER RELATED ENV-Vars
-* PORT (default 3000) || PORT
-* EXHOST (default 0.0.0.0) || HOST
-* EXLOGL (default none) || Loglevel // tiny, short, dev, combined, common
+- PORT      (Express PORT  DF:   3000)
+- EXHOST    (Express HOST  DF:   "0.0.0.0")
+- APTOKEN   (ShareX Token  DF:   "mysharexupload123")
+- APURL     (ShareX Domain DF:   "http://localhost:3000")
