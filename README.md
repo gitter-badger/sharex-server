@@ -1,4 +1,7 @@
 # Sharex-Fileuploader
+
+[![Join the chat at https://gitter.im/sharex-server/community](https://badges.gitter.im/sharex-server/community.svg)](https://gitter.im/sharex-server/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 An Simple File Uploader for ShareX in NodeJS
 
 ### How to Use this Image
